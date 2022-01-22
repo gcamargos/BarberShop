@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@300&display=swap');
+
 body {
     background-color: white;
     width: 100%;
@@ -43,6 +46,112 @@ i {
 .section_bestSellers {
     background-color: #3a4040;
     width: 100%;
-    height: 400px;
-    margin-top: 200px;
+    height: 800px;
+}
+
+.seller_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 10%;
+}
+
+.seller_left h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.seller_left {
+    background-color: rgba(255, 0, 0, 0);
+    width: 35%;
+    height: auto;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.seller_info{
+    background-color: rgba(137, 43, 226, 0);
+    width: 360px;
+    height: 280px;
+    padding: 2% 2% 0 15%; 
+    margin: 40% auto;
+    color: #ffffff;
+}
+.seller_info h4 {
+    font-size: 13px;
+    font-weight: 300;
+}
+.seller_info h1 {
+    font-size: 60px;
+    font-weight: 300;
+    margin-top: 5%
+}
+.seller_info p {
+    margin-top: 4%;
+    line-height: 1.4rem;
+}
+
+
+
+
+.seller_right {
+    background-color: ;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    padding: 0 5%;
+}
+
+.product_center {
+    width: 360px;
+    padding:0 2% ;
+    text-align: center;
+    height: 560px;
+    background-color: hsla(120, 100%, 25%, 0);
+}
+
+.product_info {
+    background-color: rgba(172, 255, 47, 0);
+    height: auto;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+.product_info p{
+    margin: 15px 0;
+}
+
+.product_info button {
+    background-color: #3a4040;
+    border:1px solid #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .92857rem;
+    line-height: 1.35;
+    padding: 0.92857rem 2.14286rem;
+    letter-spacing: .3em;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    border-radius: 0;
+    font-family: Oswald, sans-serif;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    margin: 3%;
+}
+
+.product_info h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10% 0 1% 0;
+
+}
+
+.product_image {
+    width: 360px;
+    height: 360px;
+    background-color: hsla(240, 100%, 50%, 0);
+}
+
+.product_image img {
+    width: 100%;
 }
