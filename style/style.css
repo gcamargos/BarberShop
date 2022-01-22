@@ -4,6 +4,41 @@ body {
     height: 100%;
 }
 
+
+/* NAVBAR */
+
+header {
+    border-bottom: 1px solid black;
+    height: 200px;
+}
+
+#navSup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    padding: 20px;
+}
+
+i {
+    border: 15px solid white
+}
+
+#navInf {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    margin: 25px 40px 0;
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
+}
+
 /*SECTION BEST SELLER */
 .section_bestSellers {
     background-color: #3a4040;
