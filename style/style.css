@@ -11,7 +11,6 @@ body {
 /* NAVBAR */
 
 header {
-    border-bottom: 1px solid black;
     height: 200px;
 }
 
@@ -41,6 +40,34 @@ i {
     text-decoration: none;
     color: black;
 }
+
+/* CARROSEL */
+
+#carouselExampleSlidesOnly {
+    display: flex;
+    background-color:#3a4040;
+}
+.container-text {
+    display: flex;
+    transform: translate(-45%);
+    padding-top: 50px;
+    padding-right: 20px;
+    
+    
+    
+}
+
+.text {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+h1 {
+    font-size: 50px;
+    padding: 15px 0 10px;
+}
+
 
 /*SECTION BEST SELLER */
 .section_bestSellers {
