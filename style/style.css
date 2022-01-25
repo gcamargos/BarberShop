@@ -95,11 +95,10 @@ i {
 
 
 .seller_right {
-    background-color: ;
     width: 65%;
     height: 100%;
     display: flex;
-    padding: 0 5%;
+    justify-content: space-around;
 }
 
 .product_center {
