@@ -51,10 +51,7 @@ i {
     display: flex;
     transform: translate(-45%);
     padding-top: 50px;
-    padding-right: 20px;
-    
-    
-    
+    padding-right: 20px;  
 }
 
 .text {
@@ -66,6 +63,24 @@ i {
 h1 {
     font-size: 50px;
     padding: 15px 0 10px;
+}
+
+#btn1 {
+    background-color: #3a4040;
+    border:1px solid #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .92857rem;
+    line-height: 1.35;
+    padding: 0.92857rem 2.14286rem;
+    letter-spacing: .3em;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    border-radius: 0;
+    font-family: Oswald, sans-serif;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    margin: 3%;
 }
 
 
